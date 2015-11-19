@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom attributes for the VerticalSeekBar -->
+    <declare-styleable name="VerticalSeekBar">
+        <attr name="thumbSize" format="dimension" />
+        <attr name="notSelectedBarWidth" format="dimension" />
+        <attr name="selectedBarWidth" format="dimension" />
+        <attr name="prefTouchAreaWidth" format="dimension"/>
+        <attr name="notSelectedBarColor" format="color" />
+        <attr name="selectedBarColor" format="color" />
+        <attr name="selectedBarColorTouched" format="color" />
+        <attr name="thumbColor" format="color" />
+        <attr name="thumbTouchedColor" format="color" />
+        <attr name="thumbTouchedWrapperColor" format="color" />
+
+        <!-- Attributes for drawing some invisible areas for testing -->
+        <attr name="testDrawContentArea" format="boolean"/>
+        <attr name="testContentAreaColor" format="color" />
+        <attr name="testShowTouchableArea" format="boolean"/>
+        <attr name="testTouchableAreaColor" format="color"/>
+
+    </declare-styleable>
+</resources>
